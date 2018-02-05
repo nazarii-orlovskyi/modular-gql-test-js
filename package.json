@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "modular-gql": "^0.2.0",
+    "express": "^4.16.2",
+    "graphql-subscriptions": "^0.5.6",
+    "modular-gql": "^0.2.2",
     "subscriptions-transport-ws": "^0.9.5"
   },
   "devDependencies": {
