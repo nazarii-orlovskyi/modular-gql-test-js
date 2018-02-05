@@ -1,0 +1,21 @@
+{
+  "name": "modular-gql-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha --reporter dot test/init-integration.js modules/**/*.test.js",
+    "test:watch": "mocha --watch --reporter dot test/init-integration.js modules/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "modular-gql": "^0.2.0",
+    "subscriptions-transport-ws": "^0.9.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "nodemon": "^1.14.12"
+  }
+}
